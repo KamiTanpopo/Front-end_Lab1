@@ -1,0 +1,96 @@
+.сircle{
+    background-color:rgb(255, 255, 255);
+    position: absolute;
+    border-radius: 50%;
+    height:40px;
+    width:40px;
+}
+.large-position{
+    margin: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color:#6F7F8F;
+    height: 150px;
+    width: 150px;
+}
+.small{
+    top: 50px;
+    right: 48px;
+    height:55px;
+    width:55px;
+}
+.north{
+    right: 55px;
+    top: -20px;
+}
+.north-east{
+    left: 110px;
+    top: 5px;
+}
+.east{
+    left: 125px;
+    top: 58px;
+}
+.east-south{
+    left: 105px;
+    bottom: 2px;
+}
+.south{
+    right: 55px;
+    bottom: -20px;
+}
+.south-west{
+    right: 105px;
+    bottom: 2px;
+}
+.west{
+    right: 125px;
+    top: 55px;
+}
+.west-north{
+    left: 5px;
+    top: 5px;
+}
+
+
+.large-transform{
+    margin-left: 250px;
+    margin-top: 20px;
+    border-radius: 50%;
+    background-color:#6F7F8F;
+    height: 150px;
+    width: 150px;
+}
+.сircle-t{
+    background-color:rgb(255, 255, 255);
+    border-radius: 50%;
+    height:40px;
+    width:40px;
+}
+.small-t{
+    transform: translate(55px,55px) scale(1.5,1.5);
+}
+.north-t{
+    transform: translate(55px,-55px);
+}
+.north-east-t{
+    transform: translate(105px, -75px);
+}
+.east-t{
+    transform: translate(125px, -65px);
+}
+.east-south-t{
+    transform: translate(105px, -50px);
+}
+.south-t{
+    transform: translate(55px, -75px);
+}
+.south-west-t{
+    transform: translate(2px, -130px);
+}
+.west-t{
+    transform: translate(-15px, -225px);
+}
+.west-north-t{
+    transform: translate(2px, -315px);
+}

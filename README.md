@@ -1,2 +1,2 @@
-# Front-end_Lab1
+# Front-end_Lab
  the repository for hosting labs

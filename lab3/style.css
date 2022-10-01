@@ -1,0 +1,126 @@
+* {
+margin: 0%;
+padding: 0%;
+}
+h1{
+text-align: center;
+line-height: 2;
+}
+p{
+text-align: center;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: x-large;
+}
+#text1{
+line-height: 17;
+}
+#text3{
+line-height: 12;
+}
+#text2, #text4, #text5{
+line-height: 2.5;
+}
+#text2{
+padding-right: 40%;
+}
+#text4{
+padding-left: 40%;
+}
+
+/* Завдання 1 */
+#green_block{
+background-color: rgb(126, 250, 209);
+float: left;
+width: 30%;
+height: 400px;
+}
+#container{
+height: 400px;
+float: right;
+width: 70%;
+}
+#blue_block{
+background-color: rgb(127, 223, 255);
+height: 15%;
+}
+#yellow_block{
+background-color: rgb(255, 246, 162);
+height: 85%;
+}
+#orange_block{
+background-color: rgb(255, 223, 183);
+float: left;
+width: 70%;
+height: 60px;
+}
+#rose_block{
+background-color: rgb(255, 137, 255);
+float: right;
+width: 30%;
+height: 60px;
+}
+
+/* Завдання 2 */
+#container1{
+display: flex;
+flex-direction: row;
+height: 400px;
+}
+#container2{
+display: flex;
+flex-direction: column;
+height: 400px;
+width: 70%;
+}
+#container3{
+display: flex;
+height: 60px;
+}
+#green_block_flex{
+background-color: rgb(126, 250, 209);
+width: 30%;
+}
+#blue_block_flex{
+background-color: rgb(127, 223, 255);
+height: 15%;
+}
+#yellow_block_flex{
+background-color: rgb(255, 246, 162);
+height: 85%;
+}
+#orange_block_flex{
+background-color: rgb(255, 223, 183);
+width: 70%;
+}
+#rose_block_flex{
+background-color: rgb(255, 137, 255);
+width: 30%;
+}
+
+/* Додаткове Завдання */
+#container_grid1{
+display: grid;
+grid-template-columns: 30% 40% 30%;
+grid-template-rows: 15% 70% 15%;
+height: 460px;
+}
+#green_block_grid{
+background-color: rgb(126, 250, 209);
+grid-row: 1 / 3;
+}
+#blue_block_grid{
+background-color: rgb(127, 223, 255);
+grid-column: 2 / 4;
+}
+#yellow_block_grid{
+background-color: rgb(255, 246, 162);
+grid-column: 2 / 4;
+}
+#orange_block_grid{
+background-color: rgb(255, 223, 183);
+grid-column: 1 / 3;
+}
+#rose_block_grid{
+background-color: rgb(255, 137, 255);
+}
+    

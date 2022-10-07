@@ -1,0 +1,31 @@
+body {
+padding: 15px 15px 15px 15px;
+}
+#first_element{
+background-color: rgb(255, 166, 134);
+color: #516364;
+}
+.second_element{
+background-color: #b7ffc3;
+color: #788788;
+}
+#first_element:hover, .second_element:hover{
+cursor: pointer;
+}
+.image{
+width: 50%;
+}
+.button{
+padding: 15px 18px;
+border-radius: 50%;
+background-color:#c0d1d2;
+border:1px solid #516364;
+margin-right: 10px;
+}
+.button:hover{
+cursor: pointer;
+border:1px solid #c0d1d2;
+}
+.button:active{
+background-color:#516364;
+}

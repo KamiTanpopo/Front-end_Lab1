@@ -15,7 +15,6 @@ function clear() {
         form.removeChild(divData);
     }
     isValid = 1;
-    wrongData = [];
     validatedData = [];
 }
 function validateForm(){
@@ -26,6 +25,8 @@ function validateForm(){
     if(!checkName){
         isValid = 0;
         document.getElementById('name').style.backgroundColor = "#ff9292";
+    }else{
+        document.getElementById('name').style.backgroundColor = "#fff7c1";
     }
     let correctGroup = /^[A-ZА-ЯҐЄІЇ]{2}-\d\d$/;
     let inputGroup = form.user_group.value;
@@ -33,6 +34,8 @@ function validateForm(){
     if(!checkGroup){
         isValid = 0;
         document.getElementById('group').style.backgroundColor = "#ff9292";
+    }else{
+        document.getElementById('group').style.backgroundColor = "#fff7c1";
     }
     let correctPhone = /^\(\d\d\d\)-\d\d\d-\d\d-\d\d$/;
     let inputPhone = form.user_phone.value;
@@ -40,6 +43,8 @@ function validateForm(){
     if(!checkPhone){
         isValid = 0;
         document.getElementById('phone').style.backgroundColor = "#ff9292";
+    }else{
+        document.getElementById('phone').style.backgroundColor = "#fff7c1";
     }
     let correctAddress = /^м.+ [A-ZА-Я][a-zA-ZА-Яа-я]{1,20}$/;
     let inputAddress = form.user_address.value;
@@ -47,14 +52,17 @@ function validateForm(){
     if(!checkAddress){
         isValid = 0;
         document.getElementById('address').style.backgroundColor = "#ff9292";
+    }else{
+        document.getElementById('address').style.backgroundColor = "#fff7c1";
     }
     let correctMail = /^[a-z\.-]+@[a-z]+\.com$/;
     let inputMail = form.user_email.value;
     checkMail = inputMail.match(correctMail);
     if(!checkMail){
         isValid = 0;
-        // wrongData.push('mail');
         document.getElementById('mail').style.backgroundColor = "#ff9292";
+    }else{
+        document.getElementById('mail').style.backgroundColor = "#fff7c1";
     }
     if(isValid){
         const dataName = document.createElement('h4');
@@ -75,7 +83,7 @@ function validateForm(){
 
         validatedData.forEach(data => divData.appendChild(data));
         form.appendChild(divData);
-        divData.style.backgroundColor = "#fff092";
+        divData.style.backgroundColor = "#fff7c1";
     }
 }
 

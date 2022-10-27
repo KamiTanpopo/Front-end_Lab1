@@ -1,0 +1,32 @@
+body {
+padding: 15px 15px 15px 15px;
+}
+form{
+background-color: rgb(255, 229, 194);
+padding: 5% 5% 5% 5%;
+text-align: center;
+margin-left: 25%;
+margin-right: 25%;
+}
+button{
+background-color:#fff092;
+border:2px solid #516364;
+margin-right: 10px;
+}
+button:hover{
+cursor: pointer;
+background-color:#ffe95d;
+}
+button:active{
+background-color:#ffe100;
+color: white;
+}
+.task2{
+    margin-top: 5%;
+}
+tr,td{
+    text-align: center;
+    border:1.5px solid #516364;
+    padding:10px;
+    cursor: pointer;
+}
